@@ -2,7 +2,7 @@
 
 Investing and finance research workflows adapted from [pstack](https://github.com/cursor/plugins/tree/c742dd61706fbacc1b95f1a20b7b988cf096ce6c/pstack), with a Codex adapter and reproducible local checks.
 
-[繁體中文使用指南](docs/README.zh-Hant.md) · [Architecture](docs/architecture.md) · [Upstream adaptation map](docs/upstream-map.md)
+[繁體中文使用指南](docs/README.zh-Hant.md) · [Architecture](docs/architecture.md) · [Upstream adaptation map](docs/upstream-map.md) · [Validation record](docs/validation.md)
 
 Fstack keeps pstack's single coordinator, task-specific playbooks, progressively loaded principles, independent workers, adversarial review, verification, and decision trail. Its first finance scope is US and Hong Kong equities, ETFs, portfolio analysis, and daily-or-longer strategy research. Sources are public documents and user-supplied files.
 
@@ -17,7 +17,7 @@ python scripts/install.py /absolute/path/to/your-project
 python scripts/install.py /absolute/path/to/your-project --apply
 ```
 
-The first install command is a dry run. The `--apply` command copies a canonical payload into the project's `.agents/fstack/` folder and creates discovery shims under `.agents/skills/`. All cross-skill references resolve in the canonical payload. Windows does not need symlink privileges. Identical reruns make no changes. A different existing destination file stops the install before it writes anything; unrelated skills are preserved. This installer deliberately does not overwrite an older or edited installation.
+The project installer defaults to a dry run. The `--apply` command copies a canonical payload into the project's `.agents/fstack/` folder and creates discovery shims under `.agents/skills/`. All cross-skill references resolve in the canonical payload. Windows does not need symlink privileges. Identical reruns make no changes. A different existing destination file stops the install before it writes anything; unrelated skills are preserved. This installer deliberately does not overwrite an older or edited installation.
 
 Open that project in Codex. Invoke `$fstack`, or select its skill. If the client has not refreshed its skill catalog, restart it. Installation does not change global models, account permissions, or credentials.
 
