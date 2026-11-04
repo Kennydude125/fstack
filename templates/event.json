@@ -1,0 +1,9 @@
+{
+  "event_id": "example-event-001",
+  "run_id": "example-run",
+  "phase": "start",
+  "decision": "Begin the synthetic research case",
+  "reason": "Demonstrate the research record format",
+  "evidence": "examples/daily_research/README.md",
+  "result": "open"
+}

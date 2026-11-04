@@ -8,8 +8,19 @@
 *.pfx
 credentials*.json
 secrets*.json
+secrets*.yaml
+secrets*.yml
+credentials*.yaml
+credentials*.yml
 *.secrets.*
 *.local.json
+.netrc
+.npmrc
+.pypirc
+.ssh/
+.aws/
+.azure/
+.kube/
 .fstack/
 .codex/
 # Private inputs and research outputs
@@ -17,6 +28,9 @@ data/
 private/
 holdings/
 trades/
+portfolio*.csv
+holdings*.csv
+transactions*.csv
 runs/
 logs/
 reports/private/
@@ -29,6 +43,8 @@ __pycache__/
 .cache/
 .pytest_cache/
 node_modules/
+*.egg-info/
+build/
 dist/
 *.zip
 gitleaks-report*.json

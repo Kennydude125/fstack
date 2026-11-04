@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "run_id": "synthetic-daily-1",
+  "author": "example-author",
+  "as_of": "2025-03-10T00:00:00Z",
+  "inputs": ["us.csv", "us.metadata.json", "hk.csv", "hk.metadata.json", "backtest.py", "attempts.json"],
+  "outputs": [".fstack/us-results.json", ".fstack/hk-results.json"],
+  "datasets": [
+    {"csv": "us.csv", "metadata": "us.metadata.json"},
+    {"csv": "hk.csv", "metadata": "hk.metadata.json"}
+  ],
+  "checks": [
+    {"name": "US synthetic calculation", "argv": ["{python}", "backtest.py", "us.csv", "us.metadata.json", ".fstack/us-results.json"], "code_inputs": ["backtest.py"], "expected_outputs": [".fstack/us-results.json"]},
+    {"name": "HK synthetic calculation", "argv": ["{python}", "backtest.py", "hk.csv", "hk.metadata.json", ".fstack/hk-results.json"], "code_inputs": ["backtest.py"], "expected_outputs": [".fstack/hk-results.json"]}
+  ],
+  "thesis_support": "unknown",
+  "performance_evidence": "development",
+  "evaluation": {
+    "development_end": "2025-02-28T23:59:59Z",
+    "evaluation_start": "2025-03-03T00:00:00Z",
+    "evaluation_end": "2025-03-08T00:00:00Z",
+    "frozen_at": "2025-03-01T00:00:00Z",
+    "attempt_log": "attempts.json"
+  }
+}

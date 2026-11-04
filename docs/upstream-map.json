@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "repository": "cursor/plugins",
+    "commit": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+    "version": "0.15.36",
+    "subdirectory": "pstack"
+  },
+  "skills": [
+    {
+      "name": "architect",
+      "source": "skills/architect/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-architect/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "arena",
+      "source": "skills/arena/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-arena/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "automate-me",
+      "source": "skills/automate-me/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-automate-me/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "benchmark-checklist",
+      "source": "skills/benchmark-checklist/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-benchmark-checklist/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "blast-radius",
+      "source": "skills/blast-radius/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-blast-radius/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "bro",
+      "source": "skills/bro/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-bro/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "correct",
+      "source": "skills/correct/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-correct/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "create-formal-verification-skill",
+      "source": "skills/create-formal-verification-skill/SKILL.md",
+      "treatment": "development-only",
+      "target": "references/development/create-formal-verification-skill/SKILL.md",
+      "reason": "Optional bounded software/accounting/workflow proofs. No model proves future market returns."
+    },
+    {
+      "name": "create-verification-skill",
+      "source": "skills/create-verification-skill/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-create-verification-skill/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "figure-it-out",
+      "source": "skills/figure-it-out/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-figure-it-out/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "how",
+      "source": "skills/how/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-how/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "in-your-own-words",
+      "source": "skills/in-your-own-words/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-in-your-own-words/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "interrogate",
+      "source": "skills/interrogate/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-interrogate/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "ketchup",
+      "source": "skills/ketchup/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-ketchup/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "ketchup-video",
+      "source": "skills/ketchup-video/SKILL.md",
+      "treatment": "omit",
+      "target": null,
+      "reason": "Presentation video adds no initial research or verification capability."
+    },
+    {
+      "name": "maintain-formal-verification-skill",
+      "source": "skills/maintain-formal-verification-skill/SKILL.md",
+      "treatment": "development-only",
+      "target": "references/development/maintain-formal-verification-skill/SKILL.md",
+      "reason": "Optional maintenance of bounded software proofs and mutation checks."
+    },
+    {
+      "name": "maintain-verification-skill",
+      "source": "skills/maintain-verification-skill/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-maintain-verification-skill/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "make-bot-ui",
+      "source": "skills/make-bot-ui/SKILL.md",
+      "treatment": "omit",
+      "target": null,
+      "reason": "Webhook UI and deployment are outside the Codex research scope."
+    },
+    {
+      "name": "no-comments",
+      "source": "skills/no-comments/SKILL.md",
+      "treatment": "development-only",
+      "target": "references/development/no-comments/SKILL.md",
+      "reason": "Code maintenance only. Financial assumptions, source notes, risk explanations and audit history must be preserved."
+    },
+    {
+      "name": "poteto-help",
+      "source": "skills/poteto-help/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-help/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "poteto-mode",
+      "source": "skills/poteto-mode/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-attack-the-premise",
+      "source": "skills/principle-attack-the-premise/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-attack-the-premise/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-boundary-discipline",
+      "source": "skills/principle-boundary-discipline/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-boundary-discipline/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-build-the-lever",
+      "source": "skills/principle-build-the-lever/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-build-the-lever/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-encode-lessons-in-structure",
+      "source": "skills/principle-encode-lessons-in-structure/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-encode-lessons-in-structure/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-exhaust-the-design-space",
+      "source": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-exhaust-the-design-space/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-experience-first",
+      "source": "skills/principle-experience-first/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-experience-first/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-explain-the-number",
+      "source": "skills/principle-explain-the-number/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-explain-the-number/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-fix-root-causes",
+      "source": "skills/principle-fix-root-causes/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-fix-root-causes/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-foundational-thinking",
+      "source": "skills/principle-foundational-thinking/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-foundational-thinking/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-guard-the-context-window",
+      "source": "skills/principle-guard-the-context-window/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-guard-the-context-window/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-laziness-protocol",
+      "source": "skills/principle-laziness-protocol/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-laziness-protocol/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-make-operations-idempotent",
+      "source": "skills/principle-make-operations-idempotent/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-make-operations-idempotent/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-migrate-callers-then-delete-legacy-apis",
+      "source": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-minimize-reader-load",
+      "source": "skills/principle-minimize-reader-load/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-minimize-reader-load/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-model-the-domain",
+      "source": "skills/principle-model-the-domain/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-model-the-domain/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-never-block-on-the-human",
+      "source": "skills/principle-never-block-on-the-human/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-never-block-on-the-human/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-outcome-oriented-execution",
+      "source": "skills/principle-outcome-oriented-execution/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-outcome-oriented-execution/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-prove-it-works",
+      "source": "skills/principle-prove-it-works/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-prove-it-works/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-redesign-from-first-principles",
+      "source": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-redesign-from-first-principles/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-separate-before-serializing-shared-state",
+      "source": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-separate-before-serializing-shared-state/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-sequence-verifiable-units",
+      "source": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-sequence-verifiable-units/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-subtract-before-you-add",
+      "source": "skills/principle-subtract-before-you-add/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-subtract-before-you-add/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-test-behavior-not-implementation",
+      "source": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-test-behavior-not-implementation/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-type-system-discipline",
+      "source": "skills/principle-type-system-discipline/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-type-system-discipline/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "recall",
+      "source": "skills/recall/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-recall/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "reflect",
+      "source": "skills/reflect/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-reflect/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "setup-pstack",
+      "source": "skills/setup-pstack/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-setup/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "sharpen",
+      "source": "skills/sharpen/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-sharpen/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "show-me-your-work",
+      "source": "skills/show-me-your-work/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-show-me-your-work/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "statechart",
+      "source": "skills/statechart/SKILL.md",
+      "treatment": "development-only",
+      "target": "references/development/statechart/SKILL.md",
+      "reason": "Optional TLA+/TLC developer workflow. Original POSIX/Bun/mise runtime is not bundled or claimed Windows-compatible."
+    },
+    {
+      "name": "swarm",
+      "source": "skills/swarm/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-swarm/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "tdd",
+      "source": "skills/tdd/SKILL.md",
+      "treatment": "development-only",
+      "target": "references/development/tdd/SKILL.md",
+      "reason": "Regression discipline for software and financial calculation code; not an investment forecasting method."
+    },
+    {
+      "name": "teach",
+      "source": "skills/teach/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-teach/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "technical-writing",
+      "source": "skills/technical-writing/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-technical-writing/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "typescript-best-practices",
+      "source": "skills/typescript-best-practices/SKILL.md",
+      "treatment": "development-only",
+      "target": "references/development/typescript-best-practices/SKILL.md",
+      "reason": "Relevant only when development actually uses TypeScript."
+    },
+    {
+      "name": "unslop",
+      "source": "skills/unslop/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-unslop/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "why",
+      "source": "skills/why/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-why/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    }
+  ],
+  "principles": [
+    {
+      "name": "principle-attack-the-premise",
+      "source": "skills/principle-attack-the-premise/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-attack-the-premise/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-boundary-discipline",
+      "source": "skills/principle-boundary-discipline/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-boundary-discipline/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-build-the-lever",
+      "source": "skills/principle-build-the-lever/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-build-the-lever/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-encode-lessons-in-structure",
+      "source": "skills/principle-encode-lessons-in-structure/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-encode-lessons-in-structure/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-exhaust-the-design-space",
+      "source": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-exhaust-the-design-space/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-experience-first",
+      "source": "skills/principle-experience-first/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-experience-first/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-explain-the-number",
+      "source": "skills/principle-explain-the-number/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-explain-the-number/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-fix-root-causes",
+      "source": "skills/principle-fix-root-causes/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-fix-root-causes/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-foundational-thinking",
+      "source": "skills/principle-foundational-thinking/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-foundational-thinking/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-guard-the-context-window",
+      "source": "skills/principle-guard-the-context-window/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-guard-the-context-window/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-laziness-protocol",
+      "source": "skills/principle-laziness-protocol/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-laziness-protocol/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-make-operations-idempotent",
+      "source": "skills/principle-make-operations-idempotent/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-make-operations-idempotent/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-migrate-callers-then-delete-legacy-apis",
+      "source": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-minimize-reader-load",
+      "source": "skills/principle-minimize-reader-load/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-minimize-reader-load/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-model-the-domain",
+      "source": "skills/principle-model-the-domain/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-model-the-domain/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-never-block-on-the-human",
+      "source": "skills/principle-never-block-on-the-human/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-never-block-on-the-human/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-outcome-oriented-execution",
+      "source": "skills/principle-outcome-oriented-execution/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-outcome-oriented-execution/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-prove-it-works",
+      "source": "skills/principle-prove-it-works/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-prove-it-works/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-redesign-from-first-principles",
+      "source": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-redesign-from-first-principles/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-separate-before-serializing-shared-state",
+      "source": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-separate-before-serializing-shared-state/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-sequence-verifiable-units",
+      "source": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-sequence-verifiable-units/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    },
+    {
+      "name": "principle-subtract-before-you-add",
+      "source": "skills/principle-subtract-before-you-add/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-subtract-before-you-add/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-test-behavior-not-implementation",
+      "source": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "treatment": "preserve",
+      "target": "skills/fstack-principle-test-behavior-not-implementation/SKILL.md",
+      "reason": "Preserve workflow structure with namespacing and Codex capability mapping."
+    },
+    {
+      "name": "principle-type-system-discipline",
+      "source": "skills/principle-type-system-discipline/SKILL.md",
+      "treatment": "adapt",
+      "target": "skills/fstack-principle-type-system-discipline/SKILL.md",
+      "reason": "Preserve the mechanism while changing financial evidence, evaluation or host semantics."
+    }
+  ],
+  "playbooks": [
+    {
+      "name": "authoring-a-skill",
+      "source": "skills/poteto-mode/playbooks/authoring-a-skill.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/authoring-a-skill.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "autonomous-run",
+      "source": "skills/poteto-mode/playbooks/autonomous-run.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/autonomous-run.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "autopilot-full",
+      "source": "skills/poteto-mode/playbooks/autopilot-full.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/autopilot-full.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "autopilot-stack",
+      "source": "skills/poteto-mode/playbooks/autopilot-stack.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/autopilot-stack.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "babysit",
+      "source": "skills/poteto-mode/playbooks/babysit.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/babysit.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "bug-fix",
+      "source": "skills/poteto-mode/playbooks/bug-fix.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/bug-fix.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "eval",
+      "source": "skills/poteto-mode/playbooks/eval.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/eval.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "feature",
+      "source": "skills/poteto-mode/playbooks/feature.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/feature.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "hillclimb",
+      "source": "skills/poteto-mode/playbooks/hillclimb.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/hillclimb.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "investigation",
+      "source": "skills/poteto-mode/playbooks/investigation.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/investigation.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "multi-phase-plan",
+      "source": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/multi-phase-plan.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "opening-a-pr",
+      "source": "skills/poteto-mode/playbooks/opening-a-pr.md",
+      "treatment": "development-only",
+      "target": "references/development/playbooks/opening-a-pr.md",
+      "reason": "Engineering-only behavior; retain as source guidance without making it a financial research gate."
+    },
+    {
+      "name": "orchestrate",
+      "source": "skills/poteto-mode/playbooks/orchestrate.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/orchestrate.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "pause-safely",
+      "source": "skills/poteto-mode/playbooks/pause-safely.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/pause-safely.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "perf-issue",
+      "source": "skills/poteto-mode/playbooks/perf-issue.md",
+      "treatment": "development-only",
+      "target": "references/development/playbooks/perf-issue.md",
+      "reason": "Engineering-only behavior; retain as source guidance without making it a financial research gate."
+    },
+    {
+      "name": "prototype",
+      "source": "skills/poteto-mode/playbooks/prototype.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/prototype.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "refactoring",
+      "source": "skills/poteto-mode/playbooks/refactoring.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/refactoring.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "runtime-forensics",
+      "source": "skills/poteto-mode/playbooks/runtime-forensics.md",
+      "treatment": "development-only",
+      "target": "references/development/playbooks/runtime-forensics.md",
+      "reason": "Engineering-only behavior; retain as source guidance without making it a financial research gate."
+    },
+    {
+      "name": "session-pickup",
+      "source": "skills/poteto-mode/playbooks/session-pickup.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/session-pickup.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "shipping",
+      "source": "skills/poteto-mode/playbooks/shipping.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/shipping.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "trace-forensics",
+      "source": "skills/poteto-mode/playbooks/trace-forensics.md",
+      "treatment": "adapt",
+      "target": "skills/fstack/playbooks/trace-forensics.md",
+      "reason": "Retain phase ordering and ownership while replacing engineering outputs and proof semantics with finance artifacts."
+    },
+    {
+      "name": "visual-parity",
+      "source": "skills/poteto-mode/playbooks/visual-parity.md",
+      "treatment": "development-only",
+      "target": "references/development/playbooks/visual-parity.md",
+      "reason": "Engineering-only behavior; retain as source guidance without making it a financial research gate."
+    },
+    {
+      "name": "worktree-cleanup",
+      "source": "skills/poteto-mode/playbooks/worktree-cleanup.md",
+      "treatment": "development-only",
+      "target": "references/development/playbooks/worktree-cleanup.md",
+      "reason": "Engineering-only behavior; retain as source guidance without making it a financial research gate."
+    }
+  ]
+}
