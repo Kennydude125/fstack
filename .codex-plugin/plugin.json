@@ -1,0 +1,18 @@
+{
+  "name": "fstack",
+  "version": "0.1.0",
+  "description": "Investing and finance research workflows adapted from pstack, with reproducible evidence and independent verification.",
+  "author": {"name": "Kennydude125"},
+  "license": "MIT",
+  "repository": "https://github.com/Kennydude125/fstack",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "fstack",
+    "shortDescription": "Evidence-based investing research workflows",
+    "longDescription": "Company, ETF, portfolio and daily strategy research. Preserves pstack workflow composition, role separation and verification discipline.",
+    "developerName": "Kennydude125",
+    "category": "Productivity",
+    "capabilities": ["Research", "Verification", "Strategy analysis"],
+    "defaultPrompt": ["Use $fstack to investigate my investment thesis and test its assumptions."]
+  }
+}

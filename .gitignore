@@ -1,0 +1,36 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+*.secrets.*
+*.local.json
+.fstack/
+.codex/
+# Private inputs and research outputs
+data/
+private/
+holdings/
+trades/
+runs/
+logs/
+reports/private/
+*.log
+# Environments, tools and generated artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+node_modules/
+dist/
+*.zip
+gitleaks-report*.json
+.DS_Store
+Thumbs.db
